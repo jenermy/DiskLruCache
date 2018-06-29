@@ -5,16 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.administrator.review.MainActivity">
-
-   <ImageView
-       android:layout_width="match_parent"
-       android:layout_height="200dp"
-       android:id="@+id/image"/>
-   <Button
-       android:layout_width="match_parent"
-       android:layout_height="50dp"
-       android:id="@+id/threadBtn"
-       android:text="thread"/>
+    tools:context="com.example.administrator.review.ThreadActivity">
 
 </LinearLayout>
