@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     BufferedInputStream inputStream;
     BufferedOutputStream outputStream;
     String imageUrl = "https://p.nanrenwo.net/uploads/allimg/180620/8488-1P620103541.jpg";
-    private Button threadBtn;
+    private Button threadBtn,viewBtn,view2Btn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +33,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         image = (ImageView)findViewById(R.id.image);
         threadBtn = (Button)findViewById(R.id.threadBtn);
+        viewBtn = (Button)findViewById(R.id.viewBtn);
+        view2Btn = (Button)findViewById(R.id.view2Btn);
         image.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,6 +45,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,ThreadActivity.class));
+            }
+        });
+        viewBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,ViewActivity.class));
+            }
+        });
+        view2Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,View2Activity.class));
             }
         });
         try {
@@ -81,7 +95,6 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }).start();
-
     }
 
     private boolean downloadPic(OutputStream out){

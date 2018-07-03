@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.administrator.review.MyLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/myLayout">
+
+    <com.example.administrator.review.MyListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/myLv"/>
+    <com.example.administrator.review.MyView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/status_each"
+        android:text="浪人琵琶"/>
+    <requestFocus/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="小生的花伞还落在你家"
+        android:id="@+id/myTv"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_launcher_background"
+        android:id="@+id/tIv"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_launcher_background"
+        android:id="@+id/touchIv"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clickTouchBtn"
+        android:text="click and touch" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/ctBtn"
+        android:text="click and touch"/>
+
+
+</com.example.administrator.review.MyLayout>

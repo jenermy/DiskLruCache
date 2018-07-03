@@ -16,5 +16,15 @@
        android:layout_height="50dp"
        android:id="@+id/threadBtn"
        android:text="thread"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/viewBtn"
+       android:text="View"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/view2Btn"
+       android:text="View2"/>
 
 </LinearLayout>
