@@ -59,6 +59,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,View2Activity.class));
             }
         });
+        findViewById(R.id.listBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,ListActivity.class));
+            }
+        });
         try {
             File cacheDir = Utils.getDiskCacheDir(getApplicationContext(),"bitmap");
             if(!cacheDir.exists()){

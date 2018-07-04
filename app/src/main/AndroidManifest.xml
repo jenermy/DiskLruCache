@@ -44,7 +44,8 @@
         <!-- 反馈组件 END -->
         <activity android:name=".ThreadActivity" />
         <activity android:name=".ViewActivity" />
-        <activity android:name=".View2Activity"></activity>
+        <activity android:name=".View2Activity" />
+        <activity android:name=".ListActivity"></activity>
     </application>
 
 </manifest>

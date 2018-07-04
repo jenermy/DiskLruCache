@@ -26,5 +26,10 @@
        android:layout_height="50dp"
        android:id="@+id/view2Btn"
        android:text="View2"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/listBtn"
+       android:text="ListView"/>
 
 </LinearLayout>
