@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     BufferedInputStream inputStream;
     BufferedOutputStream outputStream;
     String imageUrl = "https://p.nanrenwo.net/uploads/allimg/180620/8488-1P620103541.jpg";
-    private Button threadBtn,viewBtn,view2Btn;
+    private Button threadBtn,viewBtn,view2Btn,fragmentBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,6 +63,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(MainActivity.this,ListActivity.class));
+            }
+        });
+        findViewById(R.id.fragmentBtn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,FragmentDemoActivity.class));
             }
         });
         try {

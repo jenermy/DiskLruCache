@@ -45,7 +45,8 @@
         <activity android:name=".ThreadActivity" />
         <activity android:name=".ViewActivity" />
         <activity android:name=".View2Activity" />
-        <activity android:name=".ListActivity"></activity>
+        <activity android:name=".ListActivity" />
+        <activity android:name=".FragmentDemoActivity"></activity>
     </application>
 
 </manifest>
