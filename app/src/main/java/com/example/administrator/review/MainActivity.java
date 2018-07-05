@@ -71,6 +71,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this,FragmentDemoActivity.class));
             }
         });
+        findViewById(R.id.fragment2Btn).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this,RotateScreenActivity.class));
+            }
+        });
         try {
             File cacheDir = Utils.getDiskCacheDir(getApplicationContext(),"bitmap");
             if(!cacheDir.exists()){

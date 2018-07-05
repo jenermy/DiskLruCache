@@ -46,7 +46,8 @@
         <activity android:name=".ViewActivity" />
         <activity android:name=".View2Activity" />
         <activity android:name=".ListActivity" />
-        <activity android:name=".FragmentDemoActivity"></activity>
+        <activity android:name=".FragmentDemoActivity" />
+        <activity android:name=".RotateScreenActivity"></activity>
     </application>
 
 </manifest>

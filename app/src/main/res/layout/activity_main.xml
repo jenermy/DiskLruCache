@@ -36,5 +36,10 @@
        android:layout_height="50dp"
        android:id="@+id/fragmentBtn"
        android:text="fragment"/>
+   <Button
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:id="@+id/fragment2Btn"
+       android:text="用Fragment保存大数据"/>
 
 </LinearLayout>
